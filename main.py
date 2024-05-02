@@ -2,7 +2,7 @@ import telebot
 import requests
 from telebot import types
 #Replace the bot token here with your actual Telegram Bot token Obtained from bot father..
-bot = telebot.TeleBot("7143813665:AAFGZOig2DoM8sWAh4tQJwUfRKuN2VERqiY")
+bot = telebot.TeleBot("6367468973:AAFh3DY5BgmiwkoZbzOlh25mSDKBfcCKSyA")
 #Code for Sending start message
 @bot.message_handler(commands=['start','help'])
 def send_help_message(message):
